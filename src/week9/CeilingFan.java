@@ -14,6 +14,7 @@ public class CeilingFan {
     }
 
     public void low(){
+
         speed = LOW;
     }
 
@@ -28,6 +29,7 @@ public class CeilingFan {
     }
 
     public int getSpeed() {
+
         return speed;
     }
 }

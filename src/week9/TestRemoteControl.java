@@ -7,7 +7,8 @@ public class TestRemoteControl {
         Stereo stereo = new Stereo();
         CeilingFan fan = new CeilingFan();
 
-        Command command1 =   new ArmSecurityCommand(new SecurityControl()); //new OutdoorLightOnCommand(outdoorLight);
+        Command command1 =   new ArmSecurityCommand(new SecurityControl());
+        //new OutdoorLightOnCommand(outdoorLight);
 
 
         RemoteControl remoteControl = new RemoteControl();

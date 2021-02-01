@@ -3,6 +3,7 @@ package week9;
 public class SecurityControl {
 
     public void arm(){
+
         System.out.println("Security on");
     }
 

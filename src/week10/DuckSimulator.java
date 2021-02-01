@@ -9,6 +9,7 @@ public class DuckSimulator {
 
 
     public void addDuck(Duck duck){
+
         ducks.add(duck);
     }
 

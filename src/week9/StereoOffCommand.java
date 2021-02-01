@@ -5,6 +5,7 @@ public class StereoOffCommand implements Command{
     Stereo stereo;
 
     public StereoOffCommand(Stereo stereo) {
+
         this.stereo = stereo;
     }
 
@@ -15,6 +16,7 @@ public class StereoOffCommand implements Command{
 
     @Override
     public void undo() {
+
         stereo.on();
     }
 }

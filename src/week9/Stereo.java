@@ -5,6 +5,7 @@ public class Stereo {
     int volume;
 
     public void on(){
+
         System.out.println("Turning on the stereo");
     }
 
@@ -13,10 +14,12 @@ public class Stereo {
     }
 
     public void setCD(){
+
         System.out.println("CD is set");
     }
 
     public void setDVD(){
+
         System.out.println("DVD is set");
     }
 

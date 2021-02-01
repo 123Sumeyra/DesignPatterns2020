@@ -1,6 +1,7 @@
 package week10;
 
-public class Amplifier {
+public class Amplifier//Hoperlör
+{
 
     int vol;
     public void on(){
